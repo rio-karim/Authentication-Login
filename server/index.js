@@ -32,7 +32,6 @@ async function listen() {
   }
 
   // Give nuxt middleware to express
-  nuxt.options.publicPath = '/login/_nuxt/'
   app.use(nuxt.render)
   app.listen(port, host)
   consola.ready({

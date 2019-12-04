@@ -2,7 +2,9 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'universal',
-
+  router: {
+    base: '/login/'
+  },
   /*
   ** Headers of the page
   */
