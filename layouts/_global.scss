@@ -1,0 +1,39 @@
+@import 'variables.scss';
+.card {
+  margin-bottom:unset;
+}
+.btn-primary{
+  background: $color-primary !important;
+  background-color: $color-primary !important;
+  border-color:  $color-primary !important;
+  &:hover, &:focus{
+    background: $color-primary-hover !important;
+    background-color: $color-primary-hover !important;
+    border-color:  $color-primary-hover !important;
+  }
+}
+.btn-secondary{
+  background: $color-secondary !important;
+  background-color: $color-secondary !important;
+  border-color:  $color-secondary !important;
+  &:hover, &:focus{
+    background: $color-secondary-hover !important;
+    background-color: $color-secondary-hover !important;
+    border-color:  $color-secondary-hover !important;
+  }
+}
+.form-control-position{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+}
+[disabled]{
+  filter:grayscale(50);
+}
+.primary{
+  color: $color-primary !important;
+}
+.secondary{
+  color: $color-secondary !important;
+}
