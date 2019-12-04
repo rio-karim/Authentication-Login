@@ -7,18 +7,12 @@
             <div class="card border-grey border-lighten-3 m-0">
               <div class="card-header border-0">
                 <div class="card-title text-center">
-                  <div class="p-1">
-                    <img
-                      src="@/assets/svg/logo.svg"
-                      class="img-logo"
-                      alt="branding logo"
-                    />
-                  </div>
+                  <div class="p-1"></div>
                 </div>
                 <h6
                   class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2"
                 >
-                  <span>Login to IEC Admin</span>
+                  <span>Login to RK Admin</span>
                 </h6>
               </div>
               <div class="card-content">
